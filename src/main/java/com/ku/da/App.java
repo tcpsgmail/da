@@ -2,13 +2,17 @@ package com.ku.da;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello " );
-        System.out.println( "Hellobbbbbbbbbbbb " );
+public class App {
+    public static void main(String[] args) {
+
+    }
+
+    public boolean confirmations(int a) {
+        if (a < 6) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
