@@ -8,11 +8,13 @@ public class App {
 
     }
 
-    public boolean confirmations(int a) {
-        if (a < 6) {
-            return false;
-        } else {
-            return true;
+    public boolean confirmations(int[] a) {
+        boolean da = true;
+        for (int ka : a) {
+            if (ka < 6) {
+                da = false;
+            }
         }
+        return da;
     }
 }

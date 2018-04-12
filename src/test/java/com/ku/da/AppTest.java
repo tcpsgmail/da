@@ -33,9 +33,11 @@ public class AppTest
     }
 
     public void testConfirmations() {
-        int a = 6;
+
+        int[] anArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
         App app = new App();
-        boolean b = app.confirmations(a);
+        boolean b = app.confirmations(anArray);
         System.out.println(b);
     }
 }
