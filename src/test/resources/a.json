@@ -1,0 +1,29 @@
+{
+  "motorPolicy": {
+    "aggregatorId": "N",
+    "clientSource": "IBIS",
+    "persistDelphi": false,
+    "policyHolder": {
+      "address": {
+        "subPremiseName": "SubPremiseName",
+        "houseNo": "15",
+        "houseName": "HouseName",
+        "street": "Cherrywood Avenue",
+        "location": "Location",
+        "postalTown": "March",
+        "county": "Cambridgeshire",
+        "postcode": "PE15 9ST"
+      },
+      "title": "MRS",
+      "firstName": "Christian",
+      "lastName": "Surname",
+      "sex": "F",
+      "dateOfBirth": "1983-04-04T00:00:00.000Z"
+    }
+  },
+  "products": [
+    {
+      "lineId": "EMMOT"
+    }
+  ]
+}
